@@ -28,4 +28,4 @@ public class MyOOP {
 	}
 }
 
-///////my oop  수정
+//////////my oop  수정
