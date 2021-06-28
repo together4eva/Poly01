@@ -2,14 +2,19 @@
 public class LoopArraYYY {
 
 	public static void main(String[] args) {
-
-		String[] users = new String[3];
-		users[0] = "AAA";
-		users[1] = "BBB";
-		users[2] = "CCC";
-
-		for (int i = 0; i < 3; i++) {
-			System.out.println("<li>" + users[i] + "</li>");
+		int i=0;
+		int sum=0;
+		int[] yes = new int[10];
+		for( i=0; i<10; i++) {
+			yes[i]=(i+1)*10;
+		
+			
+			sum+=yes[i];
+			
 		}
+		System.out.println(sum);
+		
+		
+		
 	}
 }
